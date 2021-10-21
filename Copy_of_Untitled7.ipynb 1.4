@@ -1,0 +1,66 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Copy of Untitled7.ipynb",
+      "provenance": [],
+      "collapsed_sections": [],
+      "authorship_tag": "ABX9TyPN4jXjNK4eeZLkIzPlSM7c",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Shreyshimishra/Shreyshimishra/blob/main/Copy_of_Untitled7.ipynb%201.4\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "oOwT30_w01VI",
+        "outputId": "16770e1f-5ee8-4d1f-c99b-5cef09206804"
+      },
+      "source": [
+        "import cmath\n",
+        "a = float(input('enter a:'))\n",
+        "b = float(input('enter b:'))\n",
+        "c = float(input('enter c:'))\n",
+        "\n",
+        "d = (b**2) -(4*a*c)\n",
+        "sol1 = (-b-cmath.sqrt(d))/(2*a)\n",
+        "sol2 = (-b+cmath.sqrt(d))/(2*a)\n",
+        "print('the solouction are{0} and {1}'.format(sol1,sol2))"
+      ],
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "enter a:34\n",
+            "enter b:21\n",
+            "enter c:11\n",
+            "the solouction are(-0.3088235294117647-0.47765828732093274j) and (-0.3088235294117647+0.47765828732093274j)\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
